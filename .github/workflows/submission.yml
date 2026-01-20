@@ -103,7 +103,7 @@ jobs:
             const badgeUrl = `https://raw.githubusercontent.com/${context.repo.owner}/${context.repo.repo}/${defaultBranch}/images/badge.png`;
             await github.rest.issues.createComment({
               owner: issue.owner,
-              repo: issue.repo,
-              issue_number: issue.number,
-              body: `Submission completed ✅\\n\\n![Docker 101 Badge](${badgeUrl})`,
+                      repo: issue.repo,
+                      issue_number: issue.number,
+                      body: `Hey @${context.payload.issue.user.login}! 🎉\n\nCongratulations on successfully completing the Docker 101 repository! You've learned valuable skills about Docker and containerization.\n\nSubmission completed ✅\n\n![Docker 101 Badge](${badgeUrl})`,
             });
