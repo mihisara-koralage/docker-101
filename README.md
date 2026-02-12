@@ -120,9 +120,10 @@ git push origin docker-101
 
 ---
 
-## 🏆 Completion Badge
+## 🏆 [Completion Badge](https://github.com/nisalgunawardhana/docker-101/issues/16#issuecomment-3891753120)
 
 When your submission is approved, the automation will post a completion comment with the Docker 101 badge on your issue:
+
 
 ![Docker 101 Badge](images/badge.png)
 
